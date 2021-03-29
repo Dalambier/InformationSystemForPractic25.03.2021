@@ -1,0 +1,73 @@
+﻿<Window x:Class="Государственный_заказ_Челябинской_области.Интерфейс.Персонал.Администрация.ИнформацияПользователя"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Государственный_заказ_Челябинской_области.Интерфейс.Персонал.Администрация"
+        mc:Ignorable="d"
+        Title="Государственный заказ Челябинской области"
+        Height="574.051" Width="450" ResizeMode="NoResize" Icon="/Государственный заказ Челябинской области;component/Ресурсы/Миниатюра.png" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="300"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Image Source="/Государственный заказ Челябинской области;component/Ресурсы/Логотип.png" Grid.Row="0" RenderOptions.BitmapScalingMode="Fant"/>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Информация об аккаунте" HorizontalAlignment="Center"
+                   FontFamily="Times New Roman" FontSize="40" Foreground="#FF005292"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="11*"></ColumnDefinition>
+                    <ColumnDefinition Width="26*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Image Name="АватарПользователя" Width="100" Height="100" RenderOptions.BitmapScalingMode="Fant"
+                       Grid.RowSpan="2" Grid.Column="0" Stretch="UniformToFill" MouseDown="АватарПользователя_Поменять"></Image>
+                <TextBox x:Name="Имя" ToolTip="Имя пользователя" Height="30" Grid.Row="0" Grid.Column="1" TextWrapping="Wrap"
+                   FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292" Margin="10 0 0 0"/>
+                <TextBox x:Name="Фамилия" ToolTip="Фамилия пользователя" Grid.Row="1" Height="30" Grid.Column="1" TextWrapping="Wrap"
+                   FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292" Margin="10 0 0 0"/>
+                <StackPanel Orientation="Vertical" Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top">
+                    <TextBox x:Name="ИНН" ToolTip="ИНН пользователя"  Grid.Row="0" Grid.Column="1" TextWrapping="Wrap"
+                   FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292" Margin="10 0 0 0"/>
+                    <TextBox x:Name="СерияПаспорта" ToolTip="Серия паспорта пользователя"  Grid.Row="0" Grid.Column="1" TextWrapping="Wrap"
+                   FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292" Margin="10 0 0 0"/>
+                    <TextBox x:Name="НомерПаспорта" ToolTip="Номер паспорта пользователя" Grid.Row="0" Grid.Column="1" TextWrapping="Wrap"
+                   FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292" Margin="10 0 0 0"/>
+                    <TextBox x:Name="ЭлектроннаяПочта" ToolTip="Электронная почта пользователя" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap"
+                   FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292" Margin="10 0 0 0"/>
+                    <TextBox x:Name="Логин" ToolTip="Логин пользователя" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap"
+                   FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292" Margin="10 0 0 0"/>
+                    <TextBox x:Name="Пароль" ToolTip="Пароль пользователя" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap"
+                   FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292" Margin="10 0 0 0"/>
+                    <TextBox x:Name="ДатаРегистрации" ToolTip="Дата регистрации пользователя" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap"
+                   FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292" Margin="10 0 0 0"/>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+
+        <Button Grid.Row="3" FontFamily="Times New Roman" FontSize="25" Foreground="#FF005292" HorizontalAlignment="Left"
+                    Height="30" Width="200" Content="Удалить аккаунт" Background="#FFEAECFF" Margin="20 0 0 0" Click="УдалитьПользователя"/>
+
+        <Button Grid.Row="3" FontFamily="Times New Roman" FontSize="25" Foreground="#FF005292" HorizontalAlignment="Right"
+                    Height="30" Width="120" Content="Изменить" Background="#FFEAECFF" Margin="0 0 20 0" Click="ИзменитьДанныеПользователя"/>
+
+        <StackPanel Grid.Row="5">
+            <TextBlock Text="Гришин Данил Витальевич (2ИСИП-18)" HorizontalAlignment="Center" VerticalAlignment="Top" 
+                   FontFamily="Times New Roman" FontSize="15" Foreground="#FF7B8B97" Margin="0 0 0 0"/>
+        </StackPanel>
+    </Grid>
+</Window>

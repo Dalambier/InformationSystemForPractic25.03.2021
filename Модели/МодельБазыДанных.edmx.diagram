@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9cac1e34172f4d3c9ac0e2bc490206ff" Name="Diagram1">
+        <EntityTypeShape EntityType="МодельГосударственногоЗаказа.Договоры" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="МодельГосударственногоЗаказа.Заказы" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="МодельГосударственногоЗаказа.Персонал" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="МодельГосударственногоЗаказа.Письма_технической_поддержки" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="МодельГосударственногоЗаказа.Пользователи" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <AssociationConnector Association="МодельГосударственногоЗаказа.FK_Договоры_Пользователи" ManuallyRouted="false" />
+        <AssociationConnector Association="МодельГосударственногоЗаказа.FK_Договоры_Пользователи1" ManuallyRouted="false" />
+        <AssociationConnector Association="МодельГосударственногоЗаказа.FK_Заказы_Пользователи1" ManuallyRouted="false" />
+        <AssociationConnector Association="МодельГосударственногоЗаказа.FK_Заказы_Пользователи2" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

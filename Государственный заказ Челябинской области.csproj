@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7AA9A267-CEEC-4BB9-AB58-C0FBC9D31D61}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Государственный_заказ_Челябинской_области</RootNamespace>
+    <AssemblyName>Государственный заказ Челябинской области</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Интерфейс\ГлавноеМеню\ВосстановлениеАккаунта.xaml.cs">
+      <DependentUpon>ВосстановлениеАккаунта.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\ГлавноеМеню\Регистрация.xaml.cs">
+      <DependentUpon>Регистрация.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\ГлавноеМеню\ТехническаяПоддержкаСвязь.xaml.cs">
+      <DependentUpon>ТехническаяПоддержкаСвязь.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Персонал\Администрация\ИнформацияЗаказа.xaml.cs">
+      <DependentUpon>ИнформацияЗаказа.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Персонал\Администрация\ИнформацияПользователя.xaml.cs">
+      <DependentUpon>ИнформацияПользователя.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Персонал\Администрация\Меню.xaml.cs">
+      <DependentUpon>Меню.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Персонал\Администрация\ПоказЗаказов.xaml.cs">
+      <DependentUpon>ПоказЗаказов.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Персонал\Администрация\ПоказПользователей.xaml.cs">
+      <DependentUpon>ПоказПользователей.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Персонал\Техническая поддержка\ПросмотрПисем.xaml.cs">
+      <DependentUpon>ПросмотрПисем.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Пользователи\ДоговорыПользователя.xaml.cs">
+      <DependentUpon>ДоговорыПользователя.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Пользователи\Заказы.xaml.cs">
+      <DependentUpon>Заказы.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Пользователи\ЗаказыПользователя.xaml.cs">
+      <DependentUpon>ЗаказыПользователя.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Пользователи\ИнформацияОбАккаунте.xaml.cs">
+      <DependentUpon>ИнформацияОбАккаунте.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Пользователи\Меню.xaml.cs">
+      <DependentUpon>Меню.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Пользователи\ОформлениеНовогоЗаказа.xaml.cs">
+      <DependentUpon>ОформлениеНовогоЗаказа.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Пользователи\ПросмотрЗаказа.xaml.cs">
+      <DependentUpon>ПросмотрЗаказа.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Интерфейс\Пользователи\ПросмотрСвоегоЗаказа.xaml.cs">
+      <DependentUpon>ПросмотрСвоегоЗаказа.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Классы\ПараметрыЭлектроннойПочты.cs" />
+    <Compile Include="Классы\ХранимаяИнформация.cs" />
+    <Compile Include="Модели\Договоры.cs">
+      <DependentUpon>МодельБазыДанных.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Модели\Заказы.cs">
+      <DependentUpon>МодельБазыДанных.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Модели\МодельБазыДанных.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>МодельБазыДанных.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Модели\МодельБазыДанных.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>МодельБазыДанных.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Модели\МодельБазыДанных.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>МодельБазыДанных.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Модели\Персонал.cs">
+      <DependentUpon>МодельБазыДанных.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Модели\Письма_технической_поддержки.cs">
+      <DependentUpon>МодельБазыДанных.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Модели\Пользователи.cs">
+      <DependentUpon>МодельБазыДанных.tt</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Интерфейс\ГлавноеМеню\ВосстановлениеАккаунта.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Интерфейс\ГлавноеМеню\Регистрация.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Интерфейс\ГлавноеМеню\ТехническаяПоддержкаСвязь.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Интерфейс\Персонал\Администрация\ИнформацияЗаказа.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Интерфейс\Персонал\Администрация\ИнформацияПользователя.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Интерфейс\Персонал\Администрация\Меню.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Интерфейс\Персонал\Администрация\ПоказЗаказов.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Интерфейс\Персонал\Администрация\ПоказПользователей.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Интерфейс\Персонал\Техническая поддержка\ПросмотрПисем.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Интерфейс\Пользователи\ДоговорыПользователя.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Интерфейс\Пользователи\Заказы.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Интерфейс\Пользователи\ЗаказыПользователя.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Интерфейс\Пользователи\ИнформацияОбАккаунте.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Интерфейс\Пользователи\Меню.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Интерфейс\Пользователи\ОформлениеНовогоЗаказа.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Интерфейс\Пользователи\ПросмотрЗаказа.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Интерфейс\Пользователи\ПросмотрСвоегоЗаказа.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <EntityDeploy Include="Модели\МодельБазыДанных.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>МодельБазыДанных.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Модели\МодельБазыДанных.edmx.diagram">
+      <DependentUpon>МодельБазыДанных.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Ресурсы\Иконка.ico" />
+    <Resource Include="Ресурсы\Логотип.png" />
+    <Resource Include="Ресурсы\Миниатюра.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Модели\МодельБазыДанных.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>МодельБазыДанных.Context.cs</LastGenOutput>
+      <DependentUpon>МодельБазыДанных.edmx</DependentUpon>
+    </Content>
+    <Content Include="Модели\МодельБазыДанных.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>МодельБазыДанных.edmx</DependentUpon>
+      <LastGenOutput>МодельБазыДанных.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

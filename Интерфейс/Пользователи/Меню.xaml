@@ -1,0 +1,44 @@
+﻿<Window x:Class="Государственный_заказ_Челябинской_области.Интерфейс.Пользователи.Меню"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Государственный_заказ_Челябинской_области.Интерфейс.Пользователи"
+        mc:Ignorable="d"
+        Title="Государственный заказ Челябинской области"
+        Height="450" Width="450" ResizeMode="NoResize" Icon="/Государственный заказ Челябинской области;component/Ресурсы/Миниатюра.png" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Image Source="/Государственный заказ Челябинской области;component/Ресурсы/Логотип.png" Grid.Row="0" RenderOptions.BitmapScalingMode="Fant"/>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Личный кабинет" HorizontalAlignment="Center"
+                   FontFamily="Times New Roman" FontSize="55" Foreground="#FF005292"/>
+            <TextBlock Text="пользователя" HorizontalAlignment="Center"
+                   FontFamily="Times New Roman" FontSize="35" Foreground="#FF005292"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button FontFamily="Times New Roman" FontSize="25" Foreground="#FF005292" Margin="0 0 0 10"
+                    Height="35" Width="250" Content="Список заказов" Background="#FFEAECFF" Click="КнопкаПросмотраСпискаЗаказов"/>
+            <Button FontFamily="Times New Roman" FontSize="25" Foreground="#FF005292" Margin="0 0 0 10"
+                    Height="35" Width="250" Content="Мои заказы" Background="#FFEAECFF" Click="МоиЗаказы_ОткрытьФорму"/>
+            <Button FontFamily="Times New Roman" FontSize="25" Foreground="#FF005292" Margin="0 0 0 10"
+                    Height="35" Width="250" Content="Договоры" Background="#FFEAECFF" Click="ПросмотретьДоговоры"/>
+            <Button FontFamily="Times New Roman" FontSize="25" Foreground="#FF005292" Margin="0 0 0 10"
+                    Height="35" Width="250" Content="Аккаунт" Background="#FFEAECFF" Click="ПросмотретьИнформацииюОбАккаунте"/>
+        </StackPanel>
+
+
+        <StackPanel Grid.Row="5">
+            <TextBlock Text="Гришин Данил Витальевич (2ИСИП-18)" HorizontalAlignment="Center" VerticalAlignment="Top" 
+                   FontFamily="Times New Roman" FontSize="15" Foreground="#FF7B8B97" Margin="0 0 0 0"/>
+        </StackPanel>
+    </Grid>
+</Window>

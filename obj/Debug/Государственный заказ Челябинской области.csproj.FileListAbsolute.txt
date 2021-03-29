@@ -1,0 +1,114 @@
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\bin\Debug\Государственный заказ Челябинской области.exe.config
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\bin\Debug\Государственный заказ Челябинской области.exe
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\bin\Debug\Государственный заказ Челябинской области.pdb
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\bin\Debug\EntityFramework.dll
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\bin\Debug\EntityFramework.xml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Государственный заказ Челябинской области.csprojAssemblyReference.cache
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\MainWindow.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\ГлавноеМеню\ВосстановлениеАккаунта.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\ГлавноеМеню\Регистрация.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\ГлавноеМеню\ТехническаяПоддержкаСвязь.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Персонал\Администрация\ИнформацияЗаказа.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Персонал\Администрация\ИнформацияПользователя.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Персонал\Администрация\Меню.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Персонал\Администрация\ПоказЗаказов.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Персонал\Администрация\ПоказПользователей.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Персонал\Техническая поддержка\ПросмотрПисем.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Пользователи\ДоговорыПользователя.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Пользователи\Заказы.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Пользователи\ЗаказыПользователя.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Пользователи\ИнформацияОбАккаунте.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Пользователи\Меню.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Пользователи\ОформлениеНовогоЗаказа.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Пользователи\ПросмотрЗаказа.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Пользователи\ПросмотрСвоегоЗаказа.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\App.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Государственный заказ Челябинской области_Content.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Государственный заказ Челябинской области_MarkupCompile.cache
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Государственный заказ Челябинской области_MarkupCompile.lref
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\App.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\MainWindow.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\ГлавноеМеню\ВосстановлениеАккаунта.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\ГлавноеМеню\Регистрация.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\ГлавноеМеню\ТехническаяПоддержкаСвязь.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Персонал\Администрация\ИнформацияЗаказа.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Персонал\Администрация\ИнформацияПользователя.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Персонал\Администрация\Меню.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Персонал\Администрация\ПоказЗаказов.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Персонал\Администрация\ПоказПользователей.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Персонал\Техническая поддержка\ПросмотрПисем.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Пользователи\ДоговорыПользователя.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Пользователи\Заказы.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Пользователи\ЗаказыПользователя.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Пользователи\ИнформацияОбАккаунте.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Пользователи\Меню.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Пользователи\ОформлениеНовогоЗаказа.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Пользователи\ПросмотрЗаказа.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Интерфейс\Пользователи\ПросмотрСвоегоЗаказа.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Государственный заказ Челябинской области.g.resources
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Государственный_заказ_Челябинской_области.Properties.Resources.resources
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Государственный заказ Челябинской области.csproj.GenerateResource.cache
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Государственный заказ Челябинской области.csproj.CoreCompileInputs.cache
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Государственный заказ Челябинской области.csproj.CopyComplete
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Государственный заказ Челябинской области.exe
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\obj\Debug\Государственный заказ Челябинской области.pdb
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\bin\Debug\Государственный заказ Челябинской области.exe.config
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\bin\Debug\Государственный заказ Челябинской области.exe
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\bin\Debug\Государственный заказ Челябинской области.pdb
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\bin\Debug\EntityFramework.dll
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\bin\Debug\EntityFramework.xml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Государственный заказ Челябинской области.csprojAssemblyReference.cache
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\MainWindow.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\ГлавноеМеню\ВосстановлениеАккаунта.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\ГлавноеМеню\Регистрация.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\ГлавноеМеню\ТехническаяПоддержкаСвязь.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Персонал\Администрация\ИнформацияЗаказа.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Персонал\Администрация\ИнформацияПользователя.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Персонал\Администрация\Меню.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Персонал\Администрация\ПоказЗаказов.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Персонал\Администрация\ПоказПользователей.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Персонал\Техническая поддержка\ПросмотрПисем.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Пользователи\ДоговорыПользователя.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Пользователи\Заказы.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Пользователи\ЗаказыПользователя.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Пользователи\ИнформацияОбАккаунте.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Пользователи\Меню.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Пользователи\ОформлениеНовогоЗаказа.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Пользователи\ПросмотрЗаказа.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Пользователи\ПросмотрСвоегоЗаказа.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\App.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Государственный заказ Челябинской области_Content.g.cs
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Государственный заказ Челябинской области_MarkupCompile.cache
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Государственный заказ Челябинской области_MarkupCompile.lref
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\App.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\MainWindow.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\ГлавноеМеню\ВосстановлениеАккаунта.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\ГлавноеМеню\Регистрация.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\ГлавноеМеню\ТехническаяПоддержкаСвязь.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Персонал\Администрация\ИнформацияЗаказа.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Персонал\Администрация\ИнформацияПользователя.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Персонал\Администрация\Меню.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Персонал\Администрация\ПоказЗаказов.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Персонал\Администрация\ПоказПользователей.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Персонал\Техническая поддержка\ПросмотрПисем.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Пользователи\ДоговорыПользователя.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Пользователи\Заказы.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Пользователи\ЗаказыПользователя.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Пользователи\ИнформацияОбАккаунте.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Пользователи\Меню.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Пользователи\ОформлениеНовогоЗаказа.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Пользователи\ПросмотрЗаказа.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Интерфейс\Пользователи\ПросмотрСвоегоЗаказа.baml
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Государственный заказ Челябинской области.g.resources
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Государственный_заказ_Челябинской_области.Properties.Resources.resources
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Государственный заказ Челябинской области.csproj.GenerateResource.cache
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Государственный заказ Челябинской области.csproj.CoreCompileInputs.cache
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Государственный заказ Челябинской области.csproj.CopyComplete
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Государственный заказ Челябинской области.exe
+C:\Users\dalam\Desktop\НовыйПроект\Государственный заказ Челябинской области\InformationSystemForPractic25.03.2021\obj\Debug\Государственный заказ Челябинской области.pdb

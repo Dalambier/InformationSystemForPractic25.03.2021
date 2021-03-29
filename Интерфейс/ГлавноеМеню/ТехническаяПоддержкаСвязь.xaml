@@ -1,0 +1,52 @@
+﻿<Window x:Class="Государственный_заказ_Челябинской_области.Интерфейс.ГлавноеМеню.ТехническаяПоддержкаСвязь"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Государственный_заказ_Челябинской_области.Интерфейс.ГлавноеМеню"
+        mc:Ignorable="d"
+        Title="Государственный заказ Челябинской области"
+        Height="330" Width="450" ResizeMode="NoResize" Icon="/Государственный заказ Челябинской области;component/Ресурсы/Миниатюра.png" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Image Source="/Государственный заказ Челябинской области;component/Ресурсы/Логотип.png" Grid.Row="0" RenderOptions.BitmapScalingMode="Fant"/>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Связь с технической поддержкой" HorizontalAlignment="Center"
+                   FontFamily="Times New Roman" FontSize="30" Foreground="#FF005292"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="2">
+            <TextBlock Text="Email " HorizontalAlignment="Center" VerticalAlignment="Center"
+                   FontFamily="Times New Roman" FontSize="25" Foreground="#FF005292" Margin="15 0 0 0"/>
+            <TextBox x:Name="ПолеДляВвода_ЭлектронныйАдрес" FontFamily="Times New Roman" FontSize="25" Foreground="#FF005292"
+                     Width="320" Height="30" VerticalAlignment="Center" Margin="-2 0 0 0"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="3">
+            <TextBlock Text="Письмо " HorizontalAlignment="Center" VerticalAlignment="Center"
+                   FontFamily="Times New Roman" FontSize="25" Foreground="#FF005292" Margin="15 0 0 0"/>
+            <TextBox x:Name="ПолеДляВвода_Письмо" FontFamily="Times New Roman" FontSize="25" Foreground="#FF005292"
+                     Width="297" Height="30" VerticalAlignment="Center" Margin="-2 0 0 0"/>
+        </StackPanel>
+
+
+        <Button Grid.Row="4" FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292"
+                Height="25" Width="200" Content="Отправить письмо" Background="#FFEAECFF"
+                Margin="0 0 0 0" HorizontalAlignment="Center" Click="ОтправитьПисьмо_Кнопка"/>
+
+
+        <StackPanel Grid.Row="6">
+            <TextBlock Text="Гришин Данил Витальевич (2ИСИП-18)" HorizontalAlignment="Center" VerticalAlignment="Top" 
+                   FontFamily="Times New Roman" FontSize="15" Foreground="#FF7B8B97" Margin="0 5 0 0"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,62 @@
+﻿<Window x:Class="Государственный_заказ_Челябинской_области.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Государственный_заказ_Челябинской_области"
+        mc:Ignorable="d"
+        Title="Государственный заказ Челябинской области"
+        Height="450" Width="450" ResizeMode="NoResize" Icon="Ресурсы/Миниатюра.png" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Image Source="Ресурсы/Логотип.png" Grid.Row="0" RenderOptions.BitmapScalingMode="Fant"/>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Государственный заказ" HorizontalAlignment="Center"
+                   FontFamily="Times New Roman" FontSize="35" Foreground="#FF005292"/>
+            <TextBlock Text="Челябинской области" HorizontalAlignment="Center"
+                   FontFamily="Times New Roman" FontSize="30" Foreground="#FF005292"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="2">
+            <TextBlock Text="Логин   " HorizontalAlignment="Center" VerticalAlignment="Center"
+                   FontFamily="Times New Roman" FontSize="25" Foreground="#FF005292" Margin="15 0 0 0"/>
+            <TextBox x:Name="ПолеДляВвода_Логин" FontFamily="Times New Roman" FontSize="25" Foreground="#FF005292"
+                     Width="320" Height="30" VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="3">
+            <TextBlock Text="Пароль " HorizontalAlignment="Center" VerticalAlignment="Center"
+                   FontFamily="Times New Roman" FontSize="25" Foreground="#FF005292" Margin="15 0 0 0"/>
+            <PasswordBox x:Name="ПолеДляВвода_Пароль" FontFamily="Times New Roman" FontSize="25" Foreground="#FF005292"
+                     Width="220" Height="30" VerticalAlignment="Center" Margin="0 0 10 0"/>
+            <Button FontFamily="Times New Roman" FontSize="25" Foreground="#FF005292"
+                    Height="30" Width="90" Content="Вход" Background="#FFEAECFF" Click="Вход_Кнопка"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <TextBlock FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292"
+                       Text="Восстановление доступа к аккаунту" Cursor="Hand" Margin="0 0 0 10"
+                       HorizontalAlignment="Center" MouseDown="ВосстановлениеДоступа_Кнопка"></TextBlock>
+            <TextBlock FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292"
+                       Text="Регистрация аккаунта" Cursor="Hand" Margin="0 0 0 10" MouseDown="Регистрация_Кнопка"
+                       HorizontalAlignment="Center"></TextBlock>
+            <TextBlock FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292"
+                       Text="Техническая поддержка" Cursor="Hand"
+                       HorizontalAlignment="Center" MouseDown="ТехническаяПоддержка_Кнопка"></TextBlock>
+        </StackPanel>
+
+        <StackPanel Grid.Row="5">
+            <TextBlock Text="Гришин Данил Витальевич (2ИСИП-18)" HorizontalAlignment="Center" VerticalAlignment="Top" 
+                   FontFamily="Times New Roman" FontSize="15" Foreground="#FF7B8B97" Margin="0 0 0 0"/>
+        </StackPanel>
+    </Grid>
+</Window>

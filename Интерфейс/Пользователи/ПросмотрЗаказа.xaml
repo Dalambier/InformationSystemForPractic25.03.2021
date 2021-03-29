@@ -1,0 +1,67 @@
+﻿<Window x:Class="Государственный_заказ_Челябинской_области.Интерфейс.Пользователи.ПросмотрЗаказа"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Государственный_заказ_Челябинской_области.Интерфейс.Пользователи"
+        mc:Ignorable="d"
+        Title="Государственный заказ Челябинской области"
+        Height="568" Width="450" MinHeight="500" MinWidth="450" Icon="/Государственный заказ Челябинской области;component/Ресурсы/Миниатюра.png" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <Image Source="/Государственный заказ Челябинской области;component/Ресурсы/Логотип.png" Grid.Row="0" RenderOptions.BitmapScalingMode="Fant"/>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Просмотр заказа" HorizontalAlignment="Center"
+                   FontFamily="Times New Roman" FontSize="40" Foreground="#FF005292"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="105"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Image Name="ИзображениеЗаказа" Width="100" Height="100" RenderOptions.BitmapScalingMode="Fant"
+                       Grid.RowSpan="2" Grid.Column="0" Stretch="UniformToFill"></Image>
+                <TextBlock x:Name="Объявитель" Text="Объявитель: " VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="0" Grid.Column="1" TextWrapping="Wrap"
+                   FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292" Margin="10,0,0,14"/>
+                <TextBlock x:Name="Название" Text="Название: " VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap"
+                   FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292" Margin="10 0 0 0"/>
+                <StackPanel Orientation="Vertical" Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top">
+                    <TextBlock x:Name="Описание" Text="Описание: " HorizontalAlignment="Left" Grid.Row="0" Grid.Column="1" TextWrapping="Wrap"
+                   FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292" Margin="10 0 0 0"/>
+                    <TextBlock x:Name="Цена" Text="Цена: " HorizontalAlignment="Left" Grid.Row="0" Grid.Column="1" TextWrapping="Wrap"
+                   FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292" Margin="10 0 0 0"/>
+                    <TextBlock x:Name="ТипЗаказа" Text="Тип заказа: " HorizontalAlignment="Left" Grid.Row="0" Grid.Column="1" TextWrapping="Wrap"
+                   FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292" Margin="10 0 0 0"/>
+                    <TextBlock x:Name="ДатаОбъявления" Text="Дата объявления: " HorizontalAlignment="Left" Grid.Row="0" Grid.Column="1" TextWrapping="Wrap"
+                   FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292" Margin="10 0 0 0"/>
+                    <TextBlock x:Name="ЭлектроннаяПочтаОбъявителя" Text="Электронная почта объявителя: " HorizontalAlignment="Left" Grid.Row="0" Grid.Column="1" TextWrapping="Wrap"
+                   FontFamily="Times New Roman" FontSize="20" Foreground="#FF005292" Margin="10 0 0 0"/>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+
+        <Button FontFamily="Times New Roman" FontSize="25" Foreground="#FF005292" Grid.Row="3"
+                    Height="35" Width="250" Content="Подписать договор" Background="#FFEAECFF" Click="КнопкаПринятияЗаказа"/>
+
+        <StackPanel Grid.Row="5">
+            <TextBlock Text="Гришин Данил Витальевич (2ИСИП-18)" HorizontalAlignment="Center" VerticalAlignment="Top" 
+                   FontFamily="Times New Roman" FontSize="15" Foreground="#FF7B8B97" Margin="0 0 0 0"/>
+        </StackPanel>
+    </Grid>
+</Window>
